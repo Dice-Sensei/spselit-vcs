@@ -30,13 +30,15 @@ Normally it is used for managing (human readable) text files mostly source code 
 - **History Tracking**: keeps track of all changes
 - **Backup and Recovery**: provides way to _revert_ to previous version
 - **Branching**: working separately on same file (more on this later)
+- **Traceability**: way to find when bug was introduced
 
 ### Long version
 
 - **Collaboration**: allows multiple people working on same file or even same line without unknowingly overwriting each other work (there may be _merge conflicts_, but that is for later)
-- **History Tracking**: keeps track of all changes - including author, timestamp and commit message
+- **History Tracking**: keeps track of all changes, not just content of files but also their creation, removal and movement, also includes author, timestamp and _commit message_
 - **Backup and Recovery**: provides way to _revert_ to previous version which is useful in case of bugs or incidents, it is possible to _revert_ to any version
-- **Branching**: working separately on same file; sometimes it is required to make changes to file without disturbing current work so we can work on same file in multiple isolated spaces before _merging_ all work together (more on this later)
+- **Branching**: working separately on same file, sometimes it is required to make changes to file without disturbing current work so we can work on same file in multiple isolated spaces knows as _branches_ before _merging_ them all together (more on this later)
+- **Traceability**: way to find when bug was introduced, who cause it (_blame_) and where it was fixed
 
 ## Where we use it?
 
