@@ -65,11 +65,11 @@ We are going to use **Git** - already decided.
 ### Short version
 
 - **Local**: changes are stored locally
-- **Centralized / Client-Server architecture**: changes are stored on server and clients connect to it to interact with it; example: **SVN**
-- **Distributed**: all copies are kept in a local codebase _repository_, and updates are made by sharing _patches_ or modifications across peers; example: **Git**
+- **Centralized / Client-Server architecture**: changes are stored on server and clients connect to it to interact with it, example: **SVN**
+- **Distributed**: all copies are kept in a local codebase _repository_, and updates are made by sharing _patches_ or modifications across peers, example: **Git**
 
 ### Long version
 
 - **Local**: changes are stored locally as _patches_ to base file
-- **Centralized / Client-Server architecture**: changes are stored on server and clients connect to it to interact with it, only current _branch_ is available _locally_ switching to another requires connecting to server, synchronization between peers is not possible; example: **SVN**
-- **Distributed**: all copies are kept in a local codebase _repository_, and updates are made by sharing _patches_ or modifications across peers, normally there is some entity (for example GitHub, GitLab, Azure DevOps) which acts as _remote repository_ with which all peers are communicating regularly but that is only to make synchronization easier between them, local work can be done without connecting to it so offline work is possible; example: **Git**
+- **Centralized / Client-Server architecture**: changes are stored on server and clients connect to it to interact with it, only current _branch_ is available _locally_ switching to another requires connecting to server, synchronization between peers is not possible, example: **SVN**
+- **Distributed**: all copies are kept in a local codebase _repository_, and updates are made by sharing _patches_ or modifications across peers, normally there is some entity (for example GitHub, GitLab, Azure DevOps) which acts as _remote repository_ with which all peers are communicating regularly but that is only to make synchronization easier between them, local work can be done without connecting to it so offline work is possible, example: **Git**
