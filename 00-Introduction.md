@@ -7,6 +7,8 @@ This document is introduction to VCS (Version Control System).
 - What is VCS?
 - Why we need it?
 - Where we use it?
+- Solutions
+- Types and Architecture
 
 ## What is VCS?
 
@@ -49,3 +51,23 @@ Normally it is used for managing (human readable) text files mostly source code 
 - Software development: management of codebase, database scheme versioning, Single source of truth
 - Document management: collaborative writing projects, contract versioning
 - Design projects: tracking project changes, keeping multiple versions available
+
+## Solutions
+
+Currently there quite few VCS just to name some: Git, SVN, Mercurial, Perforce, ...
+
+We are going to use Git.
+
+## Types and Architecture
+
+### Short version
+
+- Local: changes are stored locally
+- Centralized / Client-Server architecture: changes are stored on server and clients connect to it to interact with it; example: SVN
+- Distributed: all copies are kept in a local codebase repository, and updates are made by sharing patches or modifications across peers; example: Git
+
+### Long version
+
+- Local: changes are stored locally as patches to base file
+- Centralized / Client-Server architecture: changes are stored on server and clients connect to it to interact with it, only current branch is available locally switching to another requires connecting to server, synchronization between peers is not possible; example: SVN
+- Distributed: all copies are kept in a local codebase repository, and updates are made by sharing patches or modifications across peers, normally there is some entity (for example GitHub, GitLab, Azure DevOps) which acts as remote repository with which all peers are communicating regularly but that is only to make synchronization easier between them, local work can be done without connecting to it so offline work is possible; example: Git
