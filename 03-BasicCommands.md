@@ -5,6 +5,7 @@ This document is introduction to basic commands for **Git**.
 ## Contents
 
 - How it works
+- Ways of working with git
 - Git commands
   - git init
   - git clone
@@ -25,6 +26,14 @@ Work files are stored in _repository_ (_repo_) which is directory on disk. In th
 History of repository can be understood as **node tree**. Where each node is a _commit_ and each branch is a _branch_.
 
 Every repository has virtual layer where are stored _staged changes_ (files or parts of files).
+
+## Ways of working with git
+
+1. work is done by **one** person on one computer in one _branch_
+2. work is done by **one** person on one computer in one _branch_ with connected _remote repository_
+3. work is done by **one** person on one computer in multiple _branches_ with connected _remote repository_
+4. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_
+5. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_ and specific **workflow** is used
 
 ## Git commands
 
