@@ -4,8 +4,6 @@ This document is introduction to basic commands for **Git**.
 
 ## Contents
 
-- How it works
-- Ways of working with git
 - Git commands
   - git init
   - git clone
@@ -16,24 +14,7 @@ This document is introduction to basic commands for **Git**.
   - git pull
   - git push
 - Git actions in Visual Studio Code
-- Git vocabulary
 - Practical task: ???
-
-## How it works
-
-Work files are stored in _repository_ (_repo_) which is directory on disk. In this directory we can see our files with which we work (**current version**) and some additional files which are use by **Git**. Most of them are stored in _.git_ directory (in root of repository), but there can be additional files like _.gitignore_, _.gitconfig_ and so on (this is advance topic).
-
-History of repository can be understood as **node tree**. Where each node is a _commit_ and each branch is a _branch_.
-
-Every repository has virtual layer where are stored _staged changes_ (files or parts of files).
-
-## Ways of working with git
-
-1. work is done by **one** person on one computer in one _branch_
-2. work is done by **one** person on one computer in one _branch_ with connected _remote repository_
-3. work is done by **one** person on one computer in multiple _branches_ with connected _remote repository_
-4. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_
-5. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_ and specific **workflow** is used
 
 ## Git commands
 
@@ -84,13 +65,3 @@ This command will download information from given _repository_.
     git fetch <repository>
 
 Provided information will be stored in _.git_ directory but will **not affect current working directory**.
-
-## Git vocabulary
-
-- repo/repository: place where code lives
-- local repo: repository on workstation
-- remote repo: repository on remote server (like GitHub)
-- staging area: virtual space where changes for next commit are stored
-- commit: set of changes in given time, also contains author, timestamp and parent(s)
-- node tree: (graphical) representation of commits
-- branch: set of connected commits
