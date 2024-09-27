@@ -38,4 +38,6 @@ It is recommended to fill in you profile data (public profile).
 
 ## Showcase
 
-TODO
+TODO: what can other people see from your profile and what it means
+
+## Practical task: First repo
