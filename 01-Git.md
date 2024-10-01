@@ -74,8 +74,8 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 
 ## Ways of working with git
 
-1. work is done by **one** person on one computer in one _branch_
-2. work is done by **one** person on one computer in one _branch_ with connected _remote repository_
+1. work is done by **one** person on one computer in one _branch_ (used commands: **git init**, **git add**, **git commit**)
+2. work is done by **one** person on one computer in one _branch_ with connected _remote repository_ (used commands: **git init**/**clone**, **git add**, **git commit**, **git push**)
 3. work is done by **one** person on one computer in multiple _branches_ with connected _remote repository_
 4. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_
 5. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_ and specific **workflow** is used
