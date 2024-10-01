@@ -62,6 +62,6 @@ Message should contain descriptive info what was done in given _commit_ (more on
 
 This command will download information from given _repository_.
 
-    git fetch <repository>
+    git fetch <remote repository>
 
 Provided information will be stored in _.git_ directory but will **not affect current working directory**.
