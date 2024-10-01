@@ -8,6 +8,7 @@ This document is introduction to basic commands for **Git**.
   - git init
   - git clone
   - git status
+  - git log
   - git add
   - git commit
   - git fetch
@@ -43,6 +44,12 @@ This command will show status of repository.
 TODO: how to read status
 
     git status
+
+### git log
+
+This command will show history of _commits_.
+
+    git log
 
 ### git add
 
