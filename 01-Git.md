@@ -89,3 +89,5 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 - commit: set of changes in given time, also contains author, timestamp and parent(s)
 - node tree: (graphical) representation of commits
 - branch: set of connected commits
+- merge: merge of different change sets (for example merging two branches together)
+- merge conflict: system is not able automatically merge changes together
