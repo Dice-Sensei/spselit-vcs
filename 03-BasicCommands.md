@@ -14,6 +14,8 @@ This document is introduction to basic commands for **Git**.
   - git fetch
   - git push
   - git pull
+  - git branch
+  - git checkout
 - Git actions in Visual Studio Code
 - Practical task: ???
 
@@ -39,7 +41,7 @@ This command will _clone_ **existing** _repository_ from given link (either _loc
 
 ### git status
 
-This command will show status of repository.
+This command will show status of _repository_.
 
 TODO: how to read status
 
@@ -88,3 +90,19 @@ This command will pull your _remote repository_ changes (from connected branch) 
     git pull (<remote repository>)
 
 On both **git pull** a **git push** if there are changes which are conflicting (for example different changes on same line or edit to moved file) then this will create _merge conflict_ which needs to be resolved before continuing.
+
+### git branch
+
+This command will create **new** _branch_ with given name.
+
+    git branch <branch name>
+
+### git checkout
+
+This command will switch current _branch_ to different one.
+
+    git checkout <branch name>
+
+It is possible to create **new** _branch_ and switch to it in one go.
+
+    git checkout -b <branch name>
