@@ -11,8 +11,8 @@ This document is introduction to basic commands for **Git**.
   - git add
   - git commit
   - git fetch
-  - git pull
   - git push
+  - git pull
 - Git actions in Visual Studio Code
 - Practical task: ???
 
@@ -64,6 +64,20 @@ Message should contain descriptive info what was done in given _commit_ (more on
 
 This command will download information from given _repository_.
 
-    git fetch <remote repository>
+    git fetch (<remote repository>)
 
 Provided information will be stored in _.git_ directory but will **not affect current working directory**.
+
+### git push
+
+This command will push changes from your _local repository_ (from current _branch_) to _remote repository_ (and connected branch).
+
+    git push (<remote repository>)
+
+### git pull
+
+This command will pull your _remote repository_ changes (from connected branch) to your _local repository_ (on current _branch_).
+
+    git pull (<remote repository>)
+
+On both **git pull** a **git push** if there are changes which are conflicting (for example different changes on same line or edit to moved file) then this will create _merge conflict_ which needs to be resolved before continuing.
