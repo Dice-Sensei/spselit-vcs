@@ -20,6 +20,8 @@ This document is introduction to basic commands for **Git**.
 
 **Git** has many commands which can be used, but only a fraction of them is used regularly. Whole list with example can be find [here](https://git-scm.com/docs/git#_git_commands).
 
+**Git** commands take arguments, some are required but can be understood from context (for example current branch name) some are optional, these are passed via `--`. Full list is available in documentation either on website or as man pages in git installation folder.
+
 To understand inner workings of GUI clients or IDE addons for **Git** some basic knowledge of **Git commands** is required. It is not just commands itself but also their meaning.
 
 ### git init
