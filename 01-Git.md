@@ -40,11 +40,11 @@ TODO
 
 First thing to setup after installing **Git** is registration of its user. This can be done in few ways, easiest is via cmd/terminal. Just type in:
 
-    $ git config --global user.name "John Doe"
+    git config --global user.name "John Doe"
 
 and
 
-    $ git config --global user.email johndoe@example.com
+    git config --global user.email johndoe@example.com
 
 Of course with your **own** name and email.
 
