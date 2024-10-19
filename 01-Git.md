@@ -52,7 +52,7 @@ These values will be stored in config file in you profile specifically in (for W
 
     <drive>:/Users/<username>/.gitconfig
 
-To check that correct values are stored use command:
+You can check, that you have correct values stored there. Or you can do it via command:
 
     git config --list
 
