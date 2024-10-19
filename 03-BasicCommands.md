@@ -87,6 +87,8 @@ This command will _commit_ files from _staging area_ with given message.
 
 Message should contain descriptive info what was done in given _commit_ (more on this later). Message is not strictly necessary but nobody wants to guess what was done in given _commit_ and for that reason **message is very important**.
 
+In case that commit message is omitted new window requesting writing commit message will show up.
+
 ### git fetch
 
 This command will download information from given _repository_.
