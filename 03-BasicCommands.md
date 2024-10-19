@@ -49,7 +49,7 @@ This command will show status of _repository_.
 
 First row shows on which _branch_ you are on.
 
-Second row shows if your _branch_ is synchronized with _branch_ in _remote repository_ if it is connected.
+Second row shows if your _branch_ is synchronized with _branch_ on _remote repository_ if it is connected.
 
 Next section **staged files** (with green text) is for files in _staging area_ which will be included in next _commit_ (were added via **git add**).
 
@@ -62,6 +62,14 @@ Last section **untracked files** (with red text) is for files which are in folde
 This command will show history of _commits_.
 
     git log
+
+#### How to read git log
+
+History is shown from recent to older.
+
+All _commits_ show **commit hash** (unique identifier), **author**, **date** (when was commit created) and **commit message**.
+
+First (and possibly one another) has additional information behind **commit hash**. It shows synchronization status with _branch_ on _remote repository_ if it is connected.
 
 ### git add
 

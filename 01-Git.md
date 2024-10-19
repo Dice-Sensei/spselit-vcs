@@ -94,3 +94,4 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 - merge conflict: system is not able automatically merge changes together
 - tracked files: files included in any commit or currently in staging area
 - untracked files: files which are in folder but git did not worked with them yet
+- commit hash: unique identifier of commit - SHA-1 checksum
