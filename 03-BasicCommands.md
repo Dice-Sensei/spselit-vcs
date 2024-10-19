@@ -43,9 +43,19 @@ This command will _clone_ **existing** _repository_ from given link (either _loc
 
 This command will show status of _repository_.
 
-TODO: how to read status
-
     git status
+
+#### How to read git status
+
+First row shows on which _branch_ you are on.
+
+Second row shows if your _branch_ is synchronized with _branch_ in _remote repository_ if it is connected.
+
+Next section **staged files** (with green text) is for files in _staging area_ which will be included in next _commit_ (were added via **git add**).
+
+Next section **not staged files** (with red text) is for files which were **modified** but are not _staged_ for next _commit_.
+
+Last section **untracked files** (with red text) is for files which are in folder but repository does not **track** them at all (they were not included in previous _commits_).
 
 ### git log
 

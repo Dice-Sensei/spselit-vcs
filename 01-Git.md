@@ -86,8 +86,11 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 - local repo: repository on workstation
 - remote repo: repository on remote server (like GitHub)
 - staging area: virtual space where changes for next commit are stored
+- staged changes: changes which are in staging area (only part of file can be staged)
 - commit: set of changes in given time, also contains author, timestamp and parent(s)
 - node tree: (graphical) representation of commits
 - branch: set of connected commits
 - merge: merge of different change sets (for example merging two branches together)
 - merge conflict: system is not able automatically merge changes together
+- tracked files: files included in any commit or currently in staging area
+- untracked files: files which are in folder but git did not worked with them yet
