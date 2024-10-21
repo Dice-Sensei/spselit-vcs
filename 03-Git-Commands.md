@@ -17,6 +17,7 @@ This document is introduction to basic and advanced commands for **Git**.
   - git branch
   - git checkout
   - git diff
+  - git merge
 - Git actions in Visual Studio Code
 - Practical task: ???
 
@@ -122,6 +123,8 @@ But it can be also used to delete branch.
 
     git branch --delete <branch name>
 
+Branch can be imagine as **independent line of development**. For example space for adding new feature or place for fixing bug.
+
 In every **git** _repository_ there will always be at least one _branch_. The "main" (starter branch) is most of time called **master** or **main** or **dev**. This depends on used tool or preference of team.
 
 It is not possible to delete **current** _branch_.
@@ -149,3 +152,17 @@ This commands will show changes between commits, or commit and currently modifie
 Reading this in **raw** way from command line is quite hardcore so we will normally work with it when it is visualized via GUI or IDE addons - which is way reasonable representation.
 
 Note: There is no need to remember how the files look in **raw** way or how it works. As it is just technical representation with emphasis machine readability.
+
+### git merge
+
+This commands will **try** to put together (**merge**) two _branches_ (independent lines of development). It always works by modifying current _branch_ to which will be added changes from defined branch.
+
+    git merge <branch name>
+
+There is emphasis on **try** because this process may not be successful or automatically possible. For better success rate (or at least less work in long run) it is recommended to always work with **latest** version of _branch_ - do _pull_ before _merge_. But even then there may be a problem which needs to be fixed before _merge_ is successful, this is called **merge conflict**.
+
+There are two ways in which _merge_ can be done it is either **fast forward merge** or **3-way merge**. **Fast forward merge** will occur when there is **no intersection** between both _branches_ (example: file is not edited in same line) otherwise it will be **3-way merge** as long it can be **automatically resolved**. **3-way merge** will automatically generate **_merge commit_** on other hand **fast forward merge** won't which keeps history cleaner.
+
+_Merge conflicts_ occurs **mostly** when same set of lines in same file is edited in both _branches_. Or when file is moved/removed in one _branch_ and same file is edited in other _branch_.
+
+Note: Fixing _merge conflicts_ is advanced topic and will be explained later in separate document. For now just try to not cause any...
