@@ -13,7 +13,7 @@ This document is introduction to **Git workflows**.
 
 Git workflow is guideline or a recipe how to work with **Git** either by **yourself** (one man show) or in **team**. So that work is consistent and productive without unnecessary problems.
 
-There is quite few workflows which can be applied but not all are good choice for given project complexity, team size and skill of team members.
+There are quite few workflows which can be applied but not all are good choice for given project complexity, team size and skill of team members.
 
 ## One person working with git
 
@@ -64,10 +64,14 @@ Note: Given that **git** is **distributed** then every team member will have ava
 
 Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git checkout**, **git merge**
 
-Possible workflows: **Centralized workflow**, **Feature branching**,
+Possible workflows: **Centralized workflow**, **Feature branching**, **Gitflow workflow**, **Forking workflow**
 
 ### ad 2)
 
 Difference between this and **ad 1)** is only in way how work is _merged_ together. And that is via _Pull Request (PR)_ which means it will be _merged_ in _remote repository_ and there will space for other team members to **comment** on it via _Pull Request Review_ - which gives way more control over what, how and with which quality is _merged_.
 
 Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git checkout**, **git merge**
+
+Possible workflows: **Centralized workflow**, **Feature branching**, **Gitflow workflow**, **Forking workflow**
+
+## Git workflows
