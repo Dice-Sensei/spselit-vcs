@@ -113,16 +113,28 @@ On both **git pull** a **git push** if there are changes which are conflicting (
 
 ### git branch
 
-This command will create **new** _branch_ with given name.
+This command is used for manipulating branches. Default usage will create **new** _branch_ with given name.
 
     git branch <branch name>
 
+But it can be also used to delete branch.
+
+    git branch --delete <branch name>
+
+In every **git** _repository_ there will always be at least one _branch_. The "main" (starter branch) is most of time called **master** or **main** or **dev**. This depends on used tool or preference of team.
+
+It is not possible to delete **current** _branch_.
+
+It is good practice to not have many branches around not just for technical reasons (cost of synchronization) but mostly for
+
+Note: Most of the time in team setting is "main" branch locked/protected against writing without _Pull Request_, force _pushes_ or history rewrite.
+
 ### git checkout
 
-This command will switch current _branch_ to different one.
+This command will switch **current** _branch_ to specified one.
 
     git checkout <branch name>
 
-It is possible to create **new** _branch_ and switch to it in one go.
+It is also possible to use it to create **new** _branch_ and switch to it in one go.
 
     git checkout -b <branch name>
