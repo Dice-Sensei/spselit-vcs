@@ -11,7 +11,6 @@ This document is introduction to **Git**.
 - First setup
 - GUI Clients and IDE addons
 - How git works
-- Ways of working with git
 - Git vocabulary
 
 ## Git introduction
@@ -71,14 +70,6 @@ Work files are stored in _repository_ (_repo_) which is directory on disk. In th
 History of repository can be understood as **node tree**. Where each node is a _commit_ and each branch is a _branch_.
 
 Every repository has virtual layer where are stored _staged changes_ (files or parts of files).
-
-## Ways of working with git
-
-1. work is done by **one** person on one computer in one _branch_ (used commands: **git init**, **git add**, **git commit**)
-2. work is done by **one** person on one computer in one _branch_ with connected _remote repository_ (used commands: **git init**/**clone**, **git add**, **git commit**, **git push**)
-3. work is done by **one** person on one computer in multiple _branches_ with connected _remote repository_ (used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git checkout**)
-4. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_
-5. work is done by **multiple** people on many computers in multiple _branches_ with connected _remote repository_ where data are _merged_ via _pull requests_ and specific **workflow** is used
 
 ## Git vocabulary
 
