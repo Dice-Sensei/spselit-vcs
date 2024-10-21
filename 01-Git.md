@@ -74,10 +74,10 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 ## Git vocabulary
 
 - repo/repository: place where code lives
-- local repo: repository on workstation
+- local repo: repository on workstation/machine
 - remote repo: repository on remote server (like GitHub)
 - staging area: virtual space where changes for next commit are stored
-- staged changes: changes which are in staging area (only part of file can be staged)
+- staged changes: changes which are in staging area (even only part of file can be staged)
 - commit: set of changes in given time, also contains author, timestamp and parent(s)
 - node tree: (graphical) representation of commits
 - branch: set of connected commits
@@ -86,3 +86,5 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 - tracked files: files included in any commit or currently in staging area
 - untracked files: files which are in folder but git did not worked with them yet
 - commit hash: unique identifier of commit - SHA-1 checksum
+- pull request: merging of two branches on remote repository
+- pull request review: process of commenting and accepting/rejecting pull request
