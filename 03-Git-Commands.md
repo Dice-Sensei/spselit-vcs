@@ -18,8 +18,6 @@ This document is introduction to basic and advanced commands for **Git**.
   - git checkout
   - git diff
   - git merge
-- Git actions in Visual Studio Code
-- Practical task: ???
 
 ## Git commands
 
