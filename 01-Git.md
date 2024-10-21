@@ -88,3 +88,5 @@ Every repository has virtual layer where are stored _staged changes_ (files or p
 - commit hash: unique identifier of commit - SHA-1 checksum
 - pull request: merging of two branches on remote repository
 - pull request review: process of commenting and accepting/rejecting pull request
+- diff: set of changes between two sources (commits, branches, files, etc.)
+-

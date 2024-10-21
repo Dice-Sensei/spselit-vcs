@@ -16,6 +16,7 @@ This document is introduction to basic and advanced commands for **Git**.
   - git pull
   - git branch
   - git checkout
+  - git diff
 - Git actions in Visual Studio Code
 - Practical task: ???
 
@@ -138,3 +139,13 @@ This command will switch **current** _branch_ to specified one.
 It is also possible to use it to create **new** _branch_ and switch to it in one go.
 
     git checkout -b <branch name>
+
+### git diff
+
+This commands will show changes between commits, or commit and currently modified files or files it is quite versatile. Default command will show changes between currently modified files and last commit.
+
+    git diff
+
+Reading this in **raw** way from command line is quite hardcore so we will normally work with it when it is visualized via GUI or IDE addons - which is way reasonable representation.
+
+Note: There is no need to remember how the files look in **raw** way or how it works. As it is just technical representation with emphasis machine readability.
