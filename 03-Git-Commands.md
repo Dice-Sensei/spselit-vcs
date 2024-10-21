@@ -1,6 +1,6 @@
-# Basic Git Commands
+# Git Commands
 
-This document is introduction to basic commands for **Git**.
+This document is introduction to basic and advanced commands for **Git**.
 
 ## Contents
 
