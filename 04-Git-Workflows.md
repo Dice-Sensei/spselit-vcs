@@ -75,3 +75,25 @@ Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**
 Possible workflows: **Centralized workflow**, **Feature branching**, **Gitflow workflow**, **Forking workflow**
 
 ## Git workflows
+
+### Centralized workflow
+
+This workflow works on principle that there is only one _branch_ which is being modified on both _local repository_ and _remote repository_.
+
+Note: This workflow is best suited for people switching from **SVN** as it closely resembles it's standard (and only) workflow.
+
+### Feature branching
+
+This workflow works with premise that each **piece of work** (task, issue, unit, user story, quest) is done on separate _branch_. And when everything for that **piece of work** is finished (many exceptions exists) then it is **_merged_** together.
+
+### Gitflow workflow
+
+TODO: describe workflow
+
+https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+
+### Forking workflow
+
+TODO: describe workflow
+
+https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
