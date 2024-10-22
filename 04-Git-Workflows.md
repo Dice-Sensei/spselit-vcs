@@ -43,7 +43,7 @@ Possible workflows: **Centralized workflow**
 
 This will add another advantage on top of **ad 2)**, that is you can switch to another _branch_ do there some unrelated work or fix a bug and return back to previous _branch_.
 
-Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git checkout**, **git merge**
+Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git branch**, **git checkout**, **git merge**
 
 Possible workflows: **Centralized workflow**, **Feature branching**
 
@@ -62,7 +62,7 @@ In this setup there is one shared _remote repository_ with which every team memb
 
 Note: Given that **git** is **distributed** then every team member will have available work of every other team member as long they **synchronized** through _remote repository_. Which means even if machine of team member dies and remote is lost it is still possible to recover work.
 
-Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git checkout**, **git merge**
+Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git branch**, **git checkout**, **git merge**
 
 Possible workflows: **Centralized workflow**, **Feature branching**, **Gitflow workflow**, **Forking workflow**
 
@@ -70,7 +70,7 @@ Possible workflows: **Centralized workflow**, **Feature branching**, **Gitflow w
 
 Difference between this and **ad 1)** is only in way how work is _merged_ together. And that is via _Pull Request (PR)_ which means it will be _merged_ in _remote repository_ and there will space for other team members to **comment** on it via _Pull Request Review_ - which gives way more control over what, how and with which quality is _merged_.
 
-Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git checkout**, **git merge**
+Used commands: **git init**/**clone**, **git add**, **git commit**, **git push**, **git branch**, **git checkout**, **git merge**
 
 Possible workflows: **Centralized workflow**, **Feature branching**, **Gitflow workflow**, **Forking workflow**
 
