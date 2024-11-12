@@ -8,7 +8,7 @@ This document is introduction to **GitHub**.
 - How we use it?
 - Registration
 - Showcase
-- Practical task: First repo
+- Creating repository
 
 ## What is GitHub?
 
@@ -54,4 +54,6 @@ Public repositories are your business card. Your potential new employer will be 
 
 As already mention only public repositories will be shown, so if you wan't to work on something that is not ready to be seen by world have that repository as private.
 
-## Practical task: First repo
+## Creating repository
+
+Repository can be created either **empty** or from **existing template**.
