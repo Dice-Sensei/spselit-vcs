@@ -56,4 +56,24 @@ As already mention only public repositories will be shown, so if you wan't to wo
 
 ## Creating repository
 
-Repository can be created either **empty** or from **existing template**.
+Repository can be created either **empty** or from **existing template** (this option will be used for tests and providing examples).
+
+Repository can be **public** or **private**. Public means that code will be visible to everyone, but owner of repository will have control of who can contribute. Also **GitHub** will provide more tools to work on it with, for example pages or wiki. Private repository will not be publicly available, but it possible to specify which GitHub users will have access to it.
+
+### Readme
+
+Every _repository_ is **expected** but it is **not required** to contain `README.md` file. In this file you can describe you project in more detail then in description on **GitHub**. Also this file will be automatically show when looking at main page of _repository_.
+
+### Ignore
+
+Every _repository_ should contain `.gitignore` file. This file provides information to **git** which files should be ignored (not tracked - included in changes).
+
+Which files should be ignored depends on programming language and used tool chain. As some languages and tools are producing large number of temporary or personal files.
+
+**Best practice** is to create this ignore file on start of _repository_ (as already _tracked_ files are not automatically removed when ignore file is added). For that reason there is option to select template form which `.gitignore` will be crated.
+
+### License
+
+Every _repository_ should contain license file. GitHub provides option to pick license file on creation.
+
+_Licensing problematic is really broad topic and it is out of scope for this learning resource._
