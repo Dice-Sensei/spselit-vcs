@@ -38,6 +38,20 @@ It is recommended to fill in you profile data (public profile).
 
 ## Showcase
 
-TODO: what can other people see from your profile and what it means
+What others can see from your profile and what it means.
+
+### Profile
+
+Profile dashboard `https://github.com/<username>` is publicly available (if not set otherwise). For example [Dice-Sensei](https://github.com/Dice-Sensei)'s dashboard.
+
+Dashboard shows **contribution stats** to repositories hosted on GitHub. Only publicly available repositories are listed, but statistics can be provided for private too. Only to public repositories will be provided with links for activities like opening **Pull Request**.
+
+Points of interest on dashboard are contribution matrix and contribution activity.
+
+### Public repositories
+
+Public repositories are your business card. Your potential new employer will be looking to these, checking your contributions and interests.
+
+As already mention only public repositories will be shown, so if you wan't to work on something that is not ready to be seen by world have that repository as private.
 
 ## Practical task: First repo
